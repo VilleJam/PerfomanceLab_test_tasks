@@ -45,5 +45,14 @@ while x != nums[0]:
         if x != nums[0]:
             way.append(x)
 
-print(way)
+str_way = []
 
+for p in way:
+    sp = str(p)
+    str_way.append(sp)
+    print(type(sp))
+    print(sp)
+    print(str_way)
+    final_way = ''.join(str_way)
+
+print(final_way)

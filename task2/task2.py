@@ -7,8 +7,8 @@ for point in points:
     p = (point[0]-c[0])**2 + (point[1]-c[1])**2
 
     if p < r**2:
-        print(1, "точка внутри окружности")
+        print('1 \n')
     elif p == r**2:
-        print(0, "точка на окружности")
+        print('0 \n')
     else:
-        print(2, "точка вне окружности")
+        print('2 \n')
