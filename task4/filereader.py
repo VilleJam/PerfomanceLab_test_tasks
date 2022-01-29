@@ -22,3 +22,5 @@ with open(file, encoding="utf8") as myFile:
 
     for p in fp:
         nums.append(int(p))
+
+print(nums)
