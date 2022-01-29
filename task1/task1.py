@@ -15,7 +15,7 @@ else:
 
 nums = list(range(1, n + 1))
 
-print("массив будет задан числом {0} и будет иметь длинну обхода {1}".format(n, m))
+# print("массив будет задан числом {0} и будет иметь длинну обхода {1}".format(n, m))
 
 
 i = 0
@@ -45,4 +45,14 @@ while x != nums[0]:
         if x != nums[0]:
             way.append(x)
 
-print("путь: {0}".format(way))
+str_way = []
+
+for p in way:
+    sp = str(p)
+    str_way.append(sp)
+    print(type(sp))
+    print(sp)
+    print(str_way)
+    final_way = ''.join(str_way)
+
+print(final_way)
